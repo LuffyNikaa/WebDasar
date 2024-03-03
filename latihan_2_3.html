@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Form Pendaftaran</title>
+    <title>Div dan Span</title>
     <link rel="icon" type="img/png" href="html_form/gambar/icon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
@@ -12,7 +12,9 @@
         <h1><center>Politeknik Negeri Madiun</center></h1>
         <h3><center>Tahun Ajaran 2023/2024</center></h3>
     </div>
-        <div id="content">
+    <div> 
+        <!-- Isi disini id="main" -->
+        <div>
             <form action="proses.php" method="post">
                 <fieldset>
                     <legend>Pendaftaran Mahasiswa Baru</legend>
@@ -118,7 +120,7 @@
                         <tr>
                             <td><label for="sumberinfo">Tahu informasi ini dari</label></td>
                             <td style="display: flex;">
-                                    <input type="checkbox" id="koran" name="fav_language" value="koran" required>
+                                    <input type="radio" id="koran" name="fav_language" value="koran" required>
                                     <label for="koran">Koran</label><br>
                                     <input type="checkbox" id="web" name="fav_language" value="web" required>
                                     <label for="web">Website</label><br>
@@ -139,7 +141,12 @@
                     </table>
                 </fieldset>
         </form>
+        </div>
     </div>
-</div>
+           <i>copyright@angger_233307005
+           </i>
+    <div>
+        <!-- Isi footer disini -->
+    </div>
 </body>
 </html>
